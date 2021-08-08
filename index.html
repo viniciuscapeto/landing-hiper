@@ -1,0 +1,260 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <!--<link href="style.css" rel="stylesheet" type="text/css">-->
+    <title>Hiper</title>
+    <link href="arquivos/public/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">   
+    <link rel="shortcut icon" href="imagens/favicon.png" sizes="32x32" type="imagem/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>  
+
+    <section class="menu_topo fixed-top">
+        <header>
+            <div class="fundo"></div>
+            <div class="container">
+                <div class="row menu">
+                    <div class="col-md-12 col-9">
+                        <div class="row">
+                            <a href="index.html" class="col-md-4 "><img src="imagens/img-logo.png"></a>
+                        </div>
+                    </div>
+                </div>  
+                <div class="cont-menu">
+                    <div class="abre_menu" title="Abrir Menu"><span></span></div>
+                </div>
+            </div>
+        </header>
+    </section> 
+
+    <section class="inicio" id="inicio">
+    <div class="welcome-image-area" data-stellar-background-ratio="0.6">
+        <div id="particles-js"></div>
+        <div class="display-table">
+            <div class="display-table-cell">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-1"></div>
+                        <div class="col-md-5">
+                            <div class="header-text ">                               
+                                <h5 class="texto-inicial">O produto certo para uma revenda de sucesso!</h5>
+                                <ul class="texto-lista">
+                                    <li><img src="imagens/img-check.png" alt="icone check"> Sistema moderno e multiplataforma</li>
+                                    <li><img src="imagens/img-check.png" alt="icone check"> Foco em vendas e lucratividade</li>
+                                    <li><img src="imagens/img-check.png" alt="icone check"> Portal exclusivo</li>
+                                    <li><img src="imagens/img-check.png" alt="icone check"> Apoio de Marketing</li>
+                                    <li><img src="imagens/img-check.png" alt="icone check"> Sem licenças ou anuidade</li>
+                                </ul>
+                                <div class="home-arrow-down">
+                                    <a href="#about" class="smoth-scroll btn"><i class="fa fa-angle-double-down"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-1"></div>
+                        <div class="col-md-5">
+                            <div class="formulario">
+                                <form method="post" id="formulario-enviar" action="https://hiper.free.beeceptor.com">  
+                                    <p class="text-consultor">Informe seus dados<br> para falar com um consultor:</p>                   
+                                    <div>
+                                        <label for="nome">Nome:</label>
+                                        <input type="text" name="nome" required>
+                                    </div>
+                                    <div>
+                                        <label for="email">E-mail:</label>
+                                        <input type="text" name="email" required>
+                                    </div>
+                                    <div>
+                                        <label for="cidade">Cidade:</label>
+                                        <input type="text" name="cidade" required>
+                                    </div>
+                                    <div>
+                                        <label for="telefone">Telefone:</label>
+                                        <input type="tel" name="telefone" class="tel" id="tel" required>
+                                    </div>
+                                    <div class="clear"></div>     
+                                    
+                                    <div>
+                                    <label class="label-select" for="empresa">Qual seu tipo de empresa:</label>
+                                    <select name="empresa" required>
+                                        <option value="empresa0" selected></option>
+                                        <option value="empresa1">Empresa 1</option>
+                                        <option value="empresa2">Empresa 2</option>
+                                        <option value="empresa3">Empresa 3</option>
+                                    </select>  
+                                    </div>                                         
+                                    <button type="submit" name="acao" class="submit-inicio" id="submitInicio" disabled="disabled" onclick="msgBotao()">fale com um consultor</button>
+                                </form>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+   
+    
+
+<section class="investimento" id="investimento">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 right">
+                <img src="imagens/img-investimento.png" class="img-investimento" alt="imagem investimento ">
+            </div>
+            <div class="col-md-6">
+                <h5 class="texto-investimento">Baixo investimento e alta rentabilidade para quem gosta de vendas!</h5>
+                <p class="subtexto-investidor"> Seja um Hiperador, revenda as soluções da Hiper e ajude o micro e pequeno empreendedor a simplificar a gestão diária do seu negócio.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="ondecomecar" id="ondecomecar">
+    <div class="container">
+        <h5 class="texto-ondecomecar">Por onde começar?</h5>
+        <div class="row">                     
+            <div class="col-md-3" id="img-num">
+                <img src="imagens/img-num1.png" class="num1">
+                <p class="text-num">Gostar de vendas e ter um CNPJ voltado para prestação de serviços, tudo bem ser MEI.</p>
+            </div>
+            <div class="col-md-1"></div><br><br>
+            <div class="col-md-3" id="img-num">
+                <img src="imagens/img-num2.png" class="num2">
+                <p class="text-num">Reunião com o nosso especialista em canais, para entender melhor o modelo de negócio e investimento.</p>
+            </div>
+            <div class="col-md-1"></div><br><br>
+            <div class="col-md-3" id="img-num">
+                <img src="imagens/img-num3.png" class="num3">
+                <p class="text-num">Capacitação exclusiva com o nosso time de treinamento e início das suas atividades.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <a href="#inicio"><button type="button" class="btn-ondecomecar" align="center" id="back-to-top">fale com um consultor</button></a>
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+    </div>
+</section>
+
+<section class="beneficios" id="beneficios">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h5 class="texto-beneficios">Benefícios de ser <br>Hiperador</h5> 
+            </div>
+            <div class="col-md-6"><br>
+                <p class="subtexto-beneficios">Ofereça aos seus clientes um sistema completo e homologado em todo o país, a implantação e o suporte ficam por conta da Hiper.</p>
+            </div>
+        </div><br><br>
+
+        <div class="row" id="itens1">
+            <div class="col-md-1"></div>
+            <div class="col-md-5">
+                <img src="imagens/img-vendas2.png" alt="foco em vendas">
+                <h6 class="titulo-beneficios">Foco em vendas</h6>
+                <p class="subitem-beneficios">Toda a implantação e suporte ficam por conta da Hiper, você pode focar apenas nas suas vendas e receber comissões pelas mensalidades.</p>
+            </div>
+            <div class="col-md-5">
+                <img src="imagens/img-treinamento.png" alt="treinamento de clientes">
+                <h6 class="titulo-beneficios">Treinamento</h6>
+                <p class="subitem-beneficios">A Hiper se responsabiliza pelo seu treinamento e o dos novos clientes, para tirar dúvidas e apresentar tudo sobre o sistema.</p>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+
+        <div class="row" id="itens2">
+            <div class="col-md-1"></div>
+            <div class="col-md-5">
+                <img src="imagens/img-licenca2.png" alt="sem necessidade de licenças">
+                <h6 class="titulo-beneficios">Licenças</h6>
+                <p class="subitem-beneficios">Não há a necessidade de adquirir licenças para revender ou usar o Hiper.</p>
+            </div>
+            <div class="col-md-5">
+                <img src="imagens/img-portal.png" alt="carteira de clientes">
+                <h6 class="titulo-beneficios">Portal do Hiperador</h6>
+                <p class="subitem-beneficios">Dispomos de um portal exclusivo onde você poderá acessar sua carteira de clientes, ver informações técnicas e baixar materiais de divulgação.</p>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+    </div>    
+</section>
+
+<section class="conheca" id="conheca">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h5 class="text-conheca">Conheça um sistema de gestão e vendas inovador
+                    que auxilia no dia a dia do pequeno varejista.
+                    Seja um parceiro Hiper e nos ajude a Gerar 
+                    Felicidade!</h5>
+            </div>
+            <div class="col-md-6">
+                <a href="#inicio"><button type="button" class="btn-conheca" align="center" id="back-to-top2">fale com um consultor</button></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <footer class="footer">    
+        <img src="imagens/img-rodape.png" alt="hiper">
+    </footer> 
+
+</body>
+
+<script src="arquivos/script.js"></script>
+<script src="arquivos/jquery.js"></script>
+<script src="arquivos/maskedinput.js"></script>
+
+
+    <script language="javascript" type="text/javascript">
+
+    $(document).ready(function() {
+        $('#back-to-top').click(function(){
+            $('html, body').animate({scrollTop:0}, 'slow');
+            return false;
+        });
+        $('#back-to-top2').click(function(){
+            $('html, body').animate({scrollTop:0}, 'slow');
+            return false;
+        });
+    });
+    </script>
+
+    <script>
+
+        $("header a").on('click', function(event) {
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+              // Prevent default anchor click behavior
+              event.preventDefault();
+
+              // Store hash
+              var hash = this.hash;
+
+              //fecha menu
+             
+
+              // Using jQuery's animate() method to add smooth page scroll
+              // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+              $('html, body').animate({
+                scrollTop: ($(hash).offset().top-200)
+              }, 800, function(){
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                //window.location.hash = hash;
+              });
+            }
+        });
+
+</script>
+
+<script>        
+        $("#tel").mask("(99) 99999-9999");
+</script>
+</html>

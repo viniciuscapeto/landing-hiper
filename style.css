@@ -1,0 +1,586 @@
+
+/*-----------GERAL--------------*/
+*{
+    list-style: none;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5{
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px 0px;
+    -webkit-transition: .3s;
+    transition: .3s;
+    color: #232323;
+    font-weight: 500;
+   
+}
+ 
+h6{
+    font-size: 12px;
+    margin: 20px 0px;
+    -webkit-transition: .3s;
+    transition: .3s;
+    color: #232323;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.mobile { display: none; }
+
+ul.desktop{
+    margin-top: -10px;
+    margin-bottom: 50px;
+}
+
+h5.nome{
+    color: white;
+    margin-top: 30px;
+}
+
+.fixo {
+    position: fixed;
+    background: #fff;
+    width: 100%;
+    z-index: 9;
+    margin-top: 0;
+    padding: 10px 0;
+    top: 0;
+}
+
+/*-----------FIM GERAL--------------*/
+
+
+/*-----------INICIO--------------*/
+header{
+    opacity: 1;
+    padding: 20px;
+}
+
+header.inicio {
+    position: relative;
+    height: 100px;
+    background-size: cover;
+    z-index: 1;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 9999;
+}
+
+.menu_topo{
+    background-color: #fff;
+}
+
+.inicio {
+    position: relative;
+    height: 100%;
+    background-image: linear-gradient(to bottom right, #6D4BA0, #A84AD3);
+    background-size: cover;
+    z-index: 1;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 130px;
+    margin-bottom: 50px;
+}
+
+.texto-inicial{
+    color: white;
+    font-size: 30px;
+    margin: 20px 0px;
+    -webkit-transition: .3s;
+    transition: .3s;
+    letter-spacing: 2px;
+    font-weight: 700;    
+    font-family: 'Montserrat';
+    text-align: left;
+}
+
+
+label {
+    font-family: montserrat;
+    margin-bottom: .5rem;
+    display: inline-block;
+    width: 90px;
+    text-align: left;
+    color: #6A4B9D;
+
+}
+
+.text-consultor{
+    color: #6A4B9D;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+select {
+    width: 100%;
+    border-radius: 7px;
+    padding: 8px 18px;
+    margin-bottom: .9rem;
+}
+
+.label-select{
+    width: 100%;
+}
+
+
+
+.formulario{
+    background-color: #ffff;
+    border-radius: 20px;
+    padding: 30px;
+    margin-bottom: 50px;
+    display: block;
+}
+
+
+form input {
+    width: 70%;
+    border: 2px solid #CCCCCC;
+    border-radius: 7px;
+    padding: 8px 13px;
+    background: #F0F3F2;
+    color: black;
+    margin-bottom: .9rem;
+}
+
+.submit-inicio{
+    width: 100%;
+    margin-bottom: 10px;
+    border: 2px solid #BEBEBE;
+    border-radius: 7px;
+    padding: 8px 13px;
+    background: #BEBEBE;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: montserrat;
+}
+
+.texto-lista{
+    color: #fff;
+    font-weight: 600;
+    text-align: left;
+}
+
+
+/*----------FIM INICIO-------------*/ 
+
+
+/*----------INVESTIMENTO-------------*/ 
+
+.investimento{
+    background-color:#F0F3F2;
+    margin-bottom: 90px;
+}
+
+img.img-investimento {
+    margin-top: -20px;
+    max-width: 100%;
+}
+
+.texto-investimento{
+    color: #6A4B9D;
+    font-size: 30px;
+    margin: 20px 0px;
+    -webkit-transition: .3s;
+    transition: .3s;
+    letter-spacing: 2px;
+    font-weight: 700;    
+    font-family: 'Montserrat';
+    text-align: left;
+}
+
+.subtexto-investidor{
+    color: #6A4B9D;
+    font-family: 'Montserrat';
+    text-align: left;
+
+}
+
+
+/*----------FIM INVESTIMENTO-------------*/ 
+
+
+/*----------ONDE COMEÇAR-------------*/ 
+
+.ondecomecar{
+    background-color: #F0F3F2;
+    padding-top: 30px;
+    margin-bottom: 90px;
+}
+
+#img-num{
+    text-align: center;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    box-shadow: 10px 5px 5px #707070;
+}
+
+.text-num{
+    text-align: left;
+}
+
+.num1, .num2, .num3{
+    margin-top:-30px;
+}
+
+.btn-ondecomecar{
+    margin-top: 70px;
+    width: 100%;
+    border: 2px solid #6A4B9D;
+    border-radius: 7px;
+    padding: 8px 13px;
+    background: #FFC200;
+    color: #6A4B9D;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: montserrat;
+    margin-bottom: -20px;
+}
+
+.btn-ondecomecar:hover{
+    background-color: #7c5dad;
+    border: 2px solid #FFC200;
+    color: #FFC200;
+    box-shadow: 10px 10px 10px lightgrey;
+}
+
+
+.texto-ondecomecar{
+    color: #6A4B9D;
+    font-size: 30px;
+    margin: 20px 0px;
+    -webkit-transition: .3s;
+    transition: .3s;
+    letter-spacing: 2px;
+    font-weight: 700;    
+    font-family: 'Montserrat';
+    text-align: center;
+    margin-top: -50px;
+    margin-bottom: 50px;
+}   
+/*----------FIM ONDE COMEÇAR-------------*/ 
+
+/*----------BENEFÍCIOS-------------*/ 
+.barra-vertical{
+    height: 100px;
+    border-left: 2px solid;
+}
+
+.texto-beneficios{
+    color: #6A4B9D;
+    font-size: 30px;
+    margin: 20px 0px;
+    -webkit-transition: .3s;
+    transition: .3s;
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-family: 'Montserrat';
+    text-align: center;
+    border-right: solid;
+    height: 150px;
+}
+
+.subtexto-beneficios{
+    color: #6A4B9D;
+    font-family: 'Montserrat';
+    text-align: left;
+}
+
+.titulo-beneficios{
+    color: #333333;
+    font-size: 20px;
+    margin: 20px 0px;
+    -webkit-transition: .3s;
+    transition: .3s;
+    font-weight: 700;
+    font-family: 'Montserrat';    
+}
+
+.subitem-beneficios{
+    color: #818181;
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+
+#itens1, #itens2{
+    margin-bottom: 40px;
+}
+
+.text-titulo{
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin: 20px 0px;
+    -webkit-transition: .3s;
+    transition: .3s;
+    color: #232323;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+/*----------FIM BENEFÍCIOS-------------*/ 
+
+/*----------CONHEÇA-------------*/ 
+.conheca{
+    background-color: #F0F3F2;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.text-conheca{
+    font-size: 19px;
+}
+
+.btn-conheca{
+    margin-top: 30px;
+    width: 80%;
+    margin-bottom: 10px;
+    border: 2px solid #6A4B9D;
+    border-radius: 7px;
+    padding: 10px 13px;
+    background: #FFC200;
+    color: #6A4B9D;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: montserrat;
+}
+
+.btn-conheca:hover{
+    background-color: #6A4B9D;
+    border: 2px solid #FFC200;
+    color: #FFC200;
+    box-shadow: 10px 10px 10px lightgrey;
+}
+
+.text-conheca{
+    color: #6A4B9D;
+    font-family: 'Montserrat';
+}
+
+/*----------FIM CONHEÇA-------------*/ 
+
+
+/*----------FOOTER-------------*/ 
+footer{
+    text-align: center;
+    margin-bottom: 0%;
+    background-image: linear-gradient(to bottom right, #6D4BA0, #A84AD3);
+    padding: 50px;
+}
+
+/*----------FIM FOOTER-------------*/ 
+
+@media (min-width: 768px){
+.navbar-nav>li {
+    float: left;
+}}
+.nav>li {
+    position: relative;
+    display: block;
+}
+
+@media (min-width: 768px){
+.navbar-toggle {
+     display: none; 
+}}
+
+@media (min-width: 768px){
+.navbar {
+    border-radius: 4px;
+}}
+
+@media (min-width: 768px){
+.navbar-header {
+    float: left;
+}}
+
+
+@media (max-width: 991px) {
+    .col-4{
+    position: relative;    
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 40px;
+    max-width: 100%;
+    flex: 100%
+    }
+}
+
+/*Responsividade */
+
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1280px) {}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 767px) and (max-width: 991px) {
+    .single-project-done {
+        text-align: center;
+    }
+    .about-image img {
+        margin-top: 30px;
+    }
+    .single-testimonial p {
+        padding: 0 50px;
+    }
+    .single-contact-details i {
+        margin-bottom: 20px;
+    }
+    .single-project-complete {
+        margin-bottom: 30px;
+    }
+    .single-service,
+    .single-blog {
+        margin-bottom: 30px;
+    }
+    #map {
+        margin-top: 20px;
+    }
+}
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+    .site-header .navbar-collapse {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .mainmenu .navbar-nav li a {
+        padding: 11px 15px;
+    }
+    .mainmenu .navbar-nav li a:hover {
+        color: #ccc;
+    }
+
+    .menu-bg .navbar-collapse {
+        background: rgba(0, 0, 0, .9);
+    }
+    .welcome-image-area h2,
+    .single-slide-item h2,
+    .welcome-video-area h2 {
+        font-size: 40px;
+    }
+    .section-title h2 {
+        font-size: 30px;
+    }
+    .single-project-complete h2 {
+	font-size: 40px;
+}
+    .about-text h2 {
+        font-size: 22px;
+    }
+    .single-testimonial p {
+        padding: 0 10px;
+    }
+    .single-project-done {
+        text-align: center;
+    }
+    .footer-area p,
+    .actions,
+    .footer-social-link {
+        text-align: center;
+    }
+    .header-text p {
+        font-size: 16px;
+        padding: 0;
+        line-height: 28px;
+    }
+    .header-text .home-arrow-down {
+        bottom: -90px;
+    }
+    .about-text {
+        padding-top: 0px;
+    }
+    .about-text h3 {
+        margin-bottom: 20px;
+    }
+    .single-project-complete {
+        margin-bottom: 50px;
+    }
+    .single-contact-details i {
+        margin-bottom: 20px;
+    }
+    .single-service,
+    .single-blog {
+        margin-bottom: 30px;
+    }
+    #map {
+        margin-top: 20px;
+    }
+    .item .grid figure, .work .grid figure {
+        min-width: 100%;
+    }
+}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {    
+    .col-md-5, .col-md-6{text-align: center;}
+    label {text-align: center;}
+    .texto-investimento{text-align: center;}
+}
+
+
+
+@media (max-width: 1200px) {
+    .col-md-5, .col-md-6{text-align: center;}
+    label {text-align: center;}
+    .texto-investimento{text-align: center;}
+}
+
+@media (max-width: 991px) {
+	.cont-menu { float: right; margin-right: 10px; margin-top: -80px; }
+	.cont-menu .abre_menu{ display: block; cursor: pointer; margin-top: 15px; width: 40px; height: 30px; }
+	.abre_menu span { width: 40px; height: 8px; display: block; background: #fff; margin-top: -19px; z-index: 99; position: absolute; -webkit-transition:all 300ms ease-in;-moz-transition:all 300ms ease-in;-o-transition:all 300ms ease-in;transition:all 300ms ease-in;}
+	.abre_menu span:before { content: ''; width: 40px; height: 8px; display: block; background: #fff; margin-top: 10px; z-index: 99; position: absolute; right: 0px; opacity: 1; -webkit-transition:all 300ms ease-in;-moz-transition:all 300ms ease-in;-o-transition:all 300ms ease-in;transition:all 300ms ease-in;}
+	.abre_menu span:after { content: ''; width: 40px; height: 8px; display: block; background: #fff; margin-top: 20px; z-index: 99; position: absolute; right: 0px;-webkit-transition:all 300ms ease-in;-moz-transition:all 300ms ease-in;-o-transition:all 300ms ease-in;transition:all 300ms ease-in;}
+	
+	header ul.desktop { display: none; }
+	header ul.mobile { display: block; }
+    .col-md-5, .col-md-6{text-align: center;}
+    label {text-align: center;}
+    .texto-investimento{text-align: center;}
+
+
+	body.menu_aberto header .fundo { 
+		width: 100%;
+	    height: 100%;
+	    left: 0;
+	    position: fixed;
+	}
+
+	.logo_ubm .simbolo, .logo_ubm .ubm { background: none; width: 0%; }
+	.logo_ubm { background: url(imgs/logoubm3.png) no-repeat left center; background-size: contain; height: 55px; margin-left: 15px; }
+	footer p { padding: 0 15px; }
+}
+
+@media (max-width: 767px) {
+	.inicio { margin-top: 15px; }
+	.inicio .logo { margin-top: 50px; }
+	.oquee { padding-top: 30px; }
+	.vantagens .destaque { margin: 40px 0; }
+	.desktop { display: none; }
+	.mobile { display: block; }
+	.oquee div.espacotopo { margin-top: 25px; }
+	.curso { margin-top: 50px; }
+	.curso a { margin-left: 0; margin-top: 10px; width: 100%; display: block; background: #65aac1; text-align: center; }
+	.centermobile { text-align: center; }
+    .col-md-5, .col-md-6{text-align: center;}
+    label {text-align: center;}
+    .texto-investimento{text-align: center;}
+}
